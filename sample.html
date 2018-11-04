@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+	<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>samaple</title>
+	<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.tuitekuru{
+position:fixed;
+bottom:30px;
+right:13px;
+background-color:rgba(0,0,0,0.8);
+text-align:center;
+padding-top:10px;
+font-size:15px;
+font-weight:bold;
+padding-top:10px;
+font-size:15px;
+font-weight:bold;
+}
+
+.a{
+text-decoration:none;
+}
+
+.menu{
+width:100%;
+height:100px;
+}
+.menu-tag{
+height:100px;
+padding-top:30px;
+padding-left:150px;
+}
+.ue{
+list-style:none;
+float:left;
+margin-left:20px;
+width:10%;
+text-align:center;
+}
+.main{
+clear:both;
+width:100%;
+padding:10px;
+height:650px;
+}
+.left{
+width:50%;
+float:left;
+background-color:black;
+height:650px;
+text-align:center;
+}
+.left h1{
+color:white;
+padding-top: 45px;
+font-size: 55px;
+}
+.left h2{
+color:white;
+padding-top: 15px;
+font-family:"MinionPro-It", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+}
+.left p{
+color:white;
+padding-top: 45px;
+}
+.link{
+display:inline-block;
+background-color:orange;
+color:white;
+letter-spacing:1px;
+margin-top:60px;
+font-size:20px;
+padding: 14px 28px;
+}
+.right{
+float:left;
+width:50%;
+height:650px;
+}
+.image{
+height:650px;
+width:100%;
+}
+.look{
+height:800px;
+width:100%;
+text-align:center;
+clear:both;
+}
+.look h1{
+padding-top:80px;
+padding-bottom:30px;
+font-size:30px;
+font-family: "MinionPro-It", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+}
+.look p{
+font-family:normal;
+padding-bottom:80px;
+}
+.topimage{
+width:70%;
+height:500px;
+margin:0 auto;
+}
+.contents{
+width:100%;
+text-align:center;
+clear:both;
+}
+.contents h1{
+padding-top:80px;
+padding-bottom:30px;
+font-size:30px;
+font-family: "MinionPro-It", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+}
+.contents p{
+font-family:normal;
+padding-bottom:50px;
+}
+.topimage {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(sada_images/photo-1524151955261-824d6ca891b2.jpg);
+    background-size: cover;
+    background-position: 50%,10%;
+}
+.imageyo{
+width:100%;
+height:200px;
+margin:50px 50px;
+}
+.image1{
+float:left;
+width:200px;
+height:200px;
+background-image: url(sada_images/photo-1524151955261-824d6ca891b2.jpg);
+background-size:cover;
+background-position: 50% 50%;
+margin-left:160px;
+position:relative;
+z-index:0;
+}
+.image1 span{
+position:absolute;
+right:0;
+top:0;
+z-index:1;
+background-color:rgba(255,255,255,0.8);
+color:white;
+}
+
+
+.image2{
+float:left;
+width:200px;
+height:200px;
+background-image: url(sada_images/photo-1524151955261-824d6ca891b2.jpg);
+background-size:cover;
+background-position;50% 50%;
+margin-left:50px;
+}
+
+.image3{
+
+float:left;
+
+width:200px;
+
+height:200px;
+
+background-image: url(sada_images/photo-1524151955261-824d6ca891b2.jpg);
+
+
+background-size:cover;
+
+background-position;50% 50%;
+margin-left:50px;
+}
+
+.image4{
+
+float:left;
+
+
+width:200px;
+
+
+height:200px;
+
+background-image: url(sada_images/photo-1524151955261-824d6ca891b2.jpg);
+
+
+background-size:cover;
+
+background-position;50% 50%;
+
+margin-left:50px;
+}
+.image5{
+clear:both;
+
+width:80%;
+
+height:160px;
+
+margin:0 auto;
+}
+.image6{
+
+height:160px;
+background-image: url(sada_images/photo-1524151955261-824d6ca891b2.jpg);
+
+background-size:cover;
+
+background-position:50%;
+
+}
+.footer{
+height:100px;
+width:100%;
+text-align:center;
+margin-top:50px;
+padding-left: 430px;
+}
+
+.bottom{
+float:left;
+font-size:20px;
+margin-left: 30px;
+list-style: none;
+}
+@media(max-width:590px){
+.main{
+width:100%;
+}
+.right{
+width:100%;
+}
+.left{
+width:100%;
+}
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+	</style>
+</head>
+<nav class="menu" id="top">
+ <ul class="menu-tag">
+  <li class="ue">Who we are</li>
+  <li class="ue">Online shop</li>
+  <li class="ue">Lookbook</li>
+  <li class="ue">Showroom</li>
+  <li class="ue">News&Topics</li>
+  <li class="ue">jobs</li>
+  <li class="ue">contacts</li>
+ </ul>
+ </nav>
+ <div class="main">
+	 <div class="tuitekuru">
+		 <a href="#top">TOPへ</a>
+		 </div>
+	 <div class="left">
+		 <h1>With you</h1>
+		 <h2>Bed is not just for sleep.<br> 
+		     It always envelops you in a warm hug,<br> 
+		     and give you a new day like family.</h2>
+		 <p>ベッドは、ただ寝るための家具ではありません。<br> 
+		    どんな時でもそっとあなたを包み込み、<br> 
+		    新しい一日を与えてくれる 「家族」のような存在です。<br> 
+		    だからこそ、お客様お一人お一人にとって、<br> 
+		    心から寄り添える（with you）ベッドを。</p>
+		 <a href="#" class="link">Explore</a>
+	 </div>
+	 <div class="right">
+		 <img src="sada_images/withyou_img01.jpg" class="image"></div>
+ </div>
+ <div class="look">
+	 <h1>Lookbook</h1>
+ 	<p>ルックブック</p>
+	<div class="topimage"></div>
+ </div>
+<div class="contents">
+	<h1>Cotents</h1>
+	<p>コンテンツ</p>
+   <div class="imageyo">
+	   <div class="image1"><span>NEW</span></div>
+	   <div class="image2"></div>
+	   <div class="image3"></div>
+	   <div class="image4"></div>
+   </div>
+   <div class="image5">
+	   <div class="image6"></div>
+   </div>
+</div>
+<div class="footer">
+	<ul>
+	<li class="bottom">company</li>
+	<li class="bottom">Policy</li>
+	<li class="bottom">contact</li>
+	<li class="bottom">sitemap</li>
+	</ul>
+</div>
+
